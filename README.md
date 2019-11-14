@@ -15,14 +15,10 @@ They offer a replaced it with a similar set of films and data fields from The Mo
 https://www.kaggle.com/tmdb/tmdb-movie-metadata
 
 Files:
-../input/tmdb_5000_credits.csv:
-
+../input/tmdb_5000_credits.csv
 Contains information of the cast and crew for each movie.
-
 Columns: Movie_id- Numeric, Title- String, Cast- String, Crew- String ../input/tmdb_5000_movies.csv
-
 Contains information like the score, title, date_of_release, genres, etc.
-
 Columns: budget- Numeric, genres- String, homepage- String, id- Numeric, keywords- String, original_language- String, original_title- String, overview- String, popularity- Numeric, production_companies- String, production_countries- String, release_date- DateTime, revenue- Numeric, runtime- Numeric, spoken_languages- String, status- String, tagline- String, title- String, vote_average- Numeric, vote_count- Numeric
 The main problem with this dataset is the .json format. Many columns in the dataset are in json format, therefore cleaning the dataset was the main challenge. For people who don't know about JSON(JavaScript Object Notation), it is basically a syntax for storing and exchanging data between two computers. It is mainly in a key:value format, and is embedded into a string.
 
