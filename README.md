@@ -1,5 +1,5 @@
-# ObjectDetection
-Machine Learning project to predict movie's IMDB rating
+
+#Machine Learning project to predict movie's IMDB rating
 IMDB Movie Reviews Sentimental Analysis
 
 Problem Statement-
